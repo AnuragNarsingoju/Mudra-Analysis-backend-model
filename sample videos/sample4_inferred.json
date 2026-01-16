@@ -1,0 +1,1365 @@
+{
+    "video_path": "C:\\aashish programming files\\freelance\\nithya-analysis ml model\\sample videos\\sample4.mp4",
+    "total_frames": 192,
+    "fps": 24.0,
+    "dance_steps": [
+        {
+            "step": "Padam",
+            "start_frame": 29,
+            "end_frame": 40,
+            "meaning": "a deeply emotional and expressive piece (Nritya), focusing on slow tempo and subtle facial expressions to depict themes of love, longing, or devotion."
+        },
+        {
+            "step": "Varnam",
+            "start_frame": 40,
+            "end_frame": 43,
+            "meaning": "the centerpiece of the recital, effectively combining pure dance (Nritta) and expressive storytelling (Nritya) to explore complex emotional themes and devotion."
+        },
+        {
+            "step": "Shabdam",
+            "start_frame": 43,
+            "end_frame": 46,
+            "meaning": "an interpretive dance (Abhinaya) where the dancer introduces expressions and simple storytelling, typically praising a deity or king."
+        },
+        {
+            "step": "Jathiswaram",
+            "start_frame": 46,
+            "end_frame": 49,
+            "meaning": "a pure dance sequence (Nritta) focusing on technical brilliance, complex footwork, and rhythm, without any specific interpretive meaning."
+        },
+        {
+            "step": "Alarippu",
+            "start_frame": 49,
+            "end_frame": 52,
+            "meaning": "an invocation piece that symbolizes the blossoming of the dancer's body and mind, offering respects to God, the teacher, and the audience."
+        },
+        {
+            "step": "Tillana",
+            "start_frame": 52,
+            "end_frame": 57,
+            "meaning": "a fast-paced, rhythmic conclusion to the recital, characterized by intricate footwork and statuesque poses, celebrating joy and dynamism."
+        },
+        {
+            "step": "Padam",
+            "start_frame": 57,
+            "end_frame": 62,
+            "meaning": "a deeply emotional and expressive piece (Nritya), focusing on slow tempo and subtle facial expressions to depict themes of love, longing, or devotion."
+        },
+        {
+            "step": "Varnam",
+            "start_frame": 62,
+            "end_frame": 65,
+            "meaning": "the centerpiece of the recital, effectively combining pure dance (Nritta) and expressive storytelling (Nritya) to explore complex emotional themes and devotion."
+        },
+        {
+            "step": "Shabdam",
+            "start_frame": 65,
+            "end_frame": 69,
+            "meaning": "an interpretive dance (Abhinaya) where the dancer introduces expressions and simple storytelling, typically praising a deity or king."
+        },
+        {
+            "step": "Jathiswaram",
+            "start_frame": 69,
+            "end_frame": 72,
+            "meaning": "a pure dance sequence (Nritta) focusing on technical brilliance, complex footwork, and rhythm, without any specific interpretive meaning."
+        },
+        {
+            "step": "Alarippu",
+            "start_frame": 72,
+            "end_frame": 75,
+            "meaning": "an invocation piece that symbolizes the blossoming of the dancer's body and mind, offering respects to God, the teacher, and the audience."
+        },
+        {
+            "step": "Tillana",
+            "start_frame": 75,
+            "end_frame": 77,
+            "meaning": "a fast-paced, rhythmic conclusion to the recital, characterized by intricate footwork and statuesque poses, celebrating joy and dynamism."
+        },
+        {
+            "step": "Padam",
+            "start_frame": 77,
+            "end_frame": 79,
+            "meaning": "a deeply emotional and expressive piece (Nritya), focusing on slow tempo and subtle facial expressions to depict themes of love, longing, or devotion."
+        },
+        {
+            "step": "Varnam",
+            "start_frame": 79,
+            "end_frame": 81,
+            "meaning": "the centerpiece of the recital, effectively combining pure dance (Nritta) and expressive storytelling (Nritya) to explore complex emotional themes and devotion."
+        },
+        {
+            "step": "Shabdam",
+            "start_frame": 81,
+            "end_frame": 83,
+            "meaning": "an interpretive dance (Abhinaya) where the dancer introduces expressions and simple storytelling, typically praising a deity or king."
+        },
+        {
+            "step": "Jathiswaram",
+            "start_frame": 83,
+            "end_frame": 86,
+            "meaning": "a pure dance sequence (Nritta) focusing on technical brilliance, complex footwork, and rhythm, without any specific interpretive meaning."
+        },
+        {
+            "step": "Alarippu",
+            "start_frame": 86,
+            "end_frame": 88,
+            "meaning": "an invocation piece that symbolizes the blossoming of the dancer's body and mind, offering respects to God, the teacher, and the audience."
+        },
+        {
+            "step": "Tillana",
+            "start_frame": 88,
+            "end_frame": 92,
+            "meaning": "a fast-paced, rhythmic conclusion to the recital, characterized by intricate footwork and statuesque poses, celebrating joy and dynamism."
+        },
+        {
+            "step": "Alarippu",
+            "start_frame": 92,
+            "end_frame": 96,
+            "meaning": "an invocation piece that symbolizes the blossoming of the dancer's body and mind, offering respects to God, the teacher, and the audience."
+        },
+        {
+            "step": "Jathiswaram",
+            "start_frame": 96,
+            "end_frame": 100,
+            "meaning": "a pure dance sequence (Nritta) focusing on technical brilliance, complex footwork, and rhythm, without any specific interpretive meaning."
+        },
+        {
+            "step": "Shabdam",
+            "start_frame": 100,
+            "end_frame": 105,
+            "meaning": "an interpretive dance (Abhinaya) where the dancer introduces expressions and simple storytelling, typically praising a deity or king."
+        },
+        {
+            "step": "Varnam",
+            "start_frame": 105,
+            "end_frame": 106,
+            "meaning": "the centerpiece of the recital, effectively combining pure dance (Nritta) and expressive storytelling (Nritya) to explore complex emotional themes and devotion."
+        },
+        {
+            "step": "Padam",
+            "start_frame": 106,
+            "end_frame": 107,
+            "meaning": "a deeply emotional and expressive piece (Nritya), focusing on slow tempo and subtle facial expressions to depict themes of love, longing, or devotion."
+        },
+        {
+            "step": "Tillana",
+            "start_frame": 107,
+            "end_frame": 108,
+            "meaning": "a fast-paced, rhythmic conclusion to the recital, characterized by intricate footwork and statuesque poses, celebrating joy and dynamism."
+        },
+        {
+            "step": "Alarippu",
+            "start_frame": 108,
+            "end_frame": 109,
+            "meaning": "an invocation piece that symbolizes the blossoming of the dancer's body and mind, offering respects to God, the teacher, and the audience."
+        },
+        {
+            "step": "Jathiswaram",
+            "start_frame": 109,
+            "end_frame": 110,
+            "meaning": "a pure dance sequence (Nritta) focusing on technical brilliance, complex footwork, and rhythm, without any specific interpretive meaning."
+        },
+        {
+            "step": "Padam",
+            "start_frame": 110,
+            "end_frame": 111,
+            "meaning": "a deeply emotional and expressive piece (Nritya), focusing on slow tempo and subtle facial expressions to depict themes of love, longing, or devotion."
+        },
+        {
+            "step": "Shabdam",
+            "start_frame": 111,
+            "end_frame": 112,
+            "meaning": "an interpretive dance (Abhinaya) where the dancer introduces expressions and simple storytelling, typically praising a deity or king."
+        },
+        {
+            "step": "Alarippu",
+            "start_frame": 112,
+            "end_frame": 113,
+            "meaning": "an invocation piece that symbolizes the blossoming of the dancer's body and mind, offering respects to God, the teacher, and the audience."
+        },
+        {
+            "step": "Varnam",
+            "start_frame": 113,
+            "end_frame": 114,
+            "meaning": "the centerpiece of the recital, effectively combining pure dance (Nritta) and expressive storytelling (Nritya) to explore complex emotional themes and devotion."
+        },
+        {
+            "step": "Jathiswaram",
+            "start_frame": 114,
+            "end_frame": 115,
+            "meaning": "a pure dance sequence (Nritta) focusing on technical brilliance, complex footwork, and rhythm, without any specific interpretive meaning."
+        },
+        {
+            "step": "Shabdam",
+            "start_frame": 115,
+            "end_frame": 117,
+            "meaning": "an interpretive dance (Abhinaya) where the dancer introduces expressions and simple storytelling, typically praising a deity or king."
+        },
+        {
+            "step": "Varnam",
+            "start_frame": 117,
+            "end_frame": 118,
+            "meaning": "the centerpiece of the recital, effectively combining pure dance (Nritta) and expressive storytelling (Nritya) to explore complex emotional themes and devotion."
+        },
+        {
+            "step": "Padam",
+            "start_frame": 118,
+            "end_frame": 120,
+            "meaning": "a deeply emotional and expressive piece (Nritya), focusing on slow tempo and subtle facial expressions to depict themes of love, longing, or devotion."
+        },
+        {
+            "step": "Tillana",
+            "start_frame": 120,
+            "end_frame": 122,
+            "meaning": "a fast-paced, rhythmic conclusion to the recital, characterized by intricate footwork and statuesque poses, celebrating joy and dynamism."
+        },
+        {
+            "step": "Alarippu",
+            "start_frame": 122,
+            "end_frame": 125,
+            "meaning": "an invocation piece that symbolizes the blossoming of the dancer's body and mind, offering respects to God, the teacher, and the audience."
+        },
+        {
+            "step": "Jathiswaram",
+            "start_frame": 125,
+            "end_frame": 128,
+            "meaning": "a pure dance sequence (Nritta) focusing on technical brilliance, complex footwork, and rhythm, without any specific interpretive meaning."
+        },
+        {
+            "step": "Shabdam",
+            "start_frame": 128,
+            "end_frame": 130,
+            "meaning": "an interpretive dance (Abhinaya) where the dancer introduces expressions and simple storytelling, typically praising a deity or king."
+        },
+        {
+            "step": "Tillana",
+            "start_frame": 130,
+            "end_frame": 131,
+            "meaning": "a fast-paced, rhythmic conclusion to the recital, characterized by intricate footwork and statuesque poses, celebrating joy and dynamism."
+        },
+        {
+            "step": "Shabdam",
+            "start_frame": 131,
+            "end_frame": 132,
+            "meaning": "an interpretive dance (Abhinaya) where the dancer introduces expressions and simple storytelling, typically praising a deity or king."
+        },
+        {
+            "step": "Tillana",
+            "start_frame": 132,
+            "end_frame": 133,
+            "meaning": "a fast-paced, rhythmic conclusion to the recital, characterized by intricate footwork and statuesque poses, celebrating joy and dynamism."
+        },
+        {
+            "step": "Varnam",
+            "start_frame": 133,
+            "end_frame": 134,
+            "meaning": "the centerpiece of the recital, effectively combining pure dance (Nritta) and expressive storytelling (Nritya) to explore complex emotional themes and devotion."
+        },
+        {
+            "step": "Alarippu",
+            "start_frame": 134,
+            "end_frame": 135,
+            "meaning": "an invocation piece that symbolizes the blossoming of the dancer's body and mind, offering respects to God, the teacher, and the audience."
+        },
+        {
+            "step": "Tillana",
+            "start_frame": 135,
+            "end_frame": 138,
+            "meaning": "a fast-paced, rhythmic conclusion to the recital, characterized by intricate footwork and statuesque poses, celebrating joy and dynamism."
+        },
+        {
+            "step": "Padam",
+            "start_frame": 138,
+            "end_frame": 140,
+            "meaning": "a deeply emotional and expressive piece (Nritya), focusing on slow tempo and subtle facial expressions to depict themes of love, longing, or devotion."
+        },
+        {
+            "step": "Jathiswaram",
+            "start_frame": 140,
+            "end_frame": 141,
+            "meaning": "a pure dance sequence (Nritta) focusing on technical brilliance, complex footwork, and rhythm, without any specific interpretive meaning."
+        },
+        {
+            "step": "Padam",
+            "start_frame": 141,
+            "end_frame": 142,
+            "meaning": "a deeply emotional and expressive piece (Nritya), focusing on slow tempo and subtle facial expressions to depict themes of love, longing, or devotion."
+        },
+        {
+            "step": "Jathiswaram",
+            "start_frame": 142,
+            "end_frame": 143,
+            "meaning": "a pure dance sequence (Nritta) focusing on technical brilliance, complex footwork, and rhythm, without any specific interpretive meaning."
+        },
+        {
+            "step": "Padam",
+            "start_frame": 143,
+            "end_frame": 144,
+            "meaning": "a deeply emotional and expressive piece (Nritya), focusing on slow tempo and subtle facial expressions to depict themes of love, longing, or devotion."
+        },
+        {
+            "step": "Jathiswaram",
+            "start_frame": 144,
+            "end_frame": 150,
+            "meaning": "a pure dance sequence (Nritta) focusing on technical brilliance, complex footwork, and rhythm, without any specific interpretive meaning."
+        },
+        {
+            "step": "Alarippu",
+            "start_frame": 150,
+            "end_frame": 154,
+            "meaning": "an invocation piece that symbolizes the blossoming of the dancer's body and mind, offering respects to God, the teacher, and the audience."
+        },
+        {
+            "step": "Tillana",
+            "start_frame": 154,
+            "end_frame": 155,
+            "meaning": "a fast-paced, rhythmic conclusion to the recital, characterized by intricate footwork and statuesque poses, celebrating joy and dynamism."
+        },
+        {
+            "step": "Alarippu",
+            "start_frame": 155,
+            "end_frame": 160,
+            "meaning": "an invocation piece that symbolizes the blossoming of the dancer's body and mind, offering respects to God, the teacher, and the audience."
+        },
+        {
+            "step": "Varnam",
+            "start_frame": 160,
+            "end_frame": 161,
+            "meaning": "the centerpiece of the recital, effectively combining pure dance (Nritta) and expressive storytelling (Nritya) to explore complex emotional themes and devotion."
+        },
+        {
+            "step": "Alarippu",
+            "start_frame": 161,
+            "end_frame": 162,
+            "meaning": "an invocation piece that symbolizes the blossoming of the dancer's body and mind, offering respects to God, the teacher, and the audience."
+        },
+        {
+            "step": "Padam",
+            "start_frame": 162,
+            "end_frame": 163,
+            "meaning": "a deeply emotional and expressive piece (Nritya), focusing on slow tempo and subtle facial expressions to depict themes of love, longing, or devotion."
+        },
+        {
+            "step": "Jathiswaram",
+            "start_frame": 163,
+            "end_frame": 164,
+            "meaning": "a pure dance sequence (Nritta) focusing on technical brilliance, complex footwork, and rhythm, without any specific interpretive meaning."
+        },
+        {
+            "step": "Padam",
+            "start_frame": 164,
+            "end_frame": 167,
+            "meaning": "a deeply emotional and expressive piece (Nritya), focusing on slow tempo and subtle facial expressions to depict themes of love, longing, or devotion."
+        },
+        {
+            "step": "Tillana",
+            "start_frame": 167,
+            "end_frame": 170,
+            "meaning": "a fast-paced, rhythmic conclusion to the recital, characterized by intricate footwork and statuesque poses, celebrating joy and dynamism."
+        },
+        {
+            "step": "Shabdam",
+            "start_frame": 170,
+            "end_frame": 171,
+            "meaning": "an interpretive dance (Abhinaya) where the dancer introduces expressions and simple storytelling, typically praising a deity or king."
+        },
+        {
+            "step": "Tillana",
+            "start_frame": 171,
+            "end_frame": 172,
+            "meaning": "a fast-paced, rhythmic conclusion to the recital, characterized by intricate footwork and statuesque poses, celebrating joy and dynamism."
+        },
+        {
+            "step": "Varnam",
+            "start_frame": 172,
+            "end_frame": 173,
+            "meaning": "the centerpiece of the recital, effectively combining pure dance (Nritta) and expressive storytelling (Nritya) to explore complex emotional themes and devotion."
+        },
+        {
+            "step": "Alarippu",
+            "start_frame": 173,
+            "end_frame": 174,
+            "meaning": "an invocation piece that symbolizes the blossoming of the dancer's body and mind, offering respects to God, the teacher, and the audience."
+        },
+        {
+            "step": "Varnam",
+            "start_frame": 174,
+            "end_frame": 183,
+            "meaning": "the centerpiece of the recital, effectively combining pure dance (Nritta) and expressive storytelling (Nritya) to explore complex emotional themes and devotion."
+        },
+        {
+            "step": "Padam",
+            "start_frame": 183,
+            "end_frame": 192,
+            "meaning": "a deeply emotional and expressive piece (Nritya), focusing on slow tempo and subtle facial expressions to depict themes of love, longing, or devotion."
+        }
+    ],
+    "mudra_detections": [
+        {
+            "frame": 0,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 1,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 2,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 3,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 4,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 5,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 6,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 7,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 8,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 9,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 10,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 11,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 12,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 13,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 14,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 15,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 16,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 17,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 18,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 19,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 20,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 21,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 22,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 23,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 24,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 25,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 26,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 27,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 28,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 29,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 30,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 31,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 32,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 33,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 34,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 35,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 36,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 37,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 38,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 39,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 40,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 41,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 42,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 43,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 44,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 45,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 46,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 47,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 48,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 49,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 50,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 51,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 52,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 53,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 54,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 55,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 56,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 57,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 58,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 59,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 60,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 61,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 62,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 63,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 64,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 65,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 66,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 67,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 68,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 69,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 70,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 71,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 72,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 73,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 74,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 75,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 76,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 77,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 78,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 79,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 80,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 81,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 82,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 83,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 84,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 85,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 86,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 87,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 88,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 89,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 90,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 91,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 92,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 93,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 94,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 95,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 96,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 97,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 98,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 99,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 100,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 101,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 102,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 103,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 104,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 105,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 106,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 107,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 108,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 109,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 110,
+            "mudra": "Trishulam",
+            "confidence": 0.7162176966667175
+        },
+        {
+            "frame": 111,
+            "mudra": "Trishulam",
+            "confidence": 0.7162176966667175
+        },
+        {
+            "frame": 112,
+            "mudra": "Trishulam",
+            "confidence": 0.7162176966667175
+        },
+        {
+            "frame": 113,
+            "mudra": "Trishulam",
+            "confidence": 0.7162176966667175
+        },
+        {
+            "frame": 114,
+            "mudra": "Trishulam",
+            "confidence": 0.7162176966667175
+        },
+        {
+            "frame": 115,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 116,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 117,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 118,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 119,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 120,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 121,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 122,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 123,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 124,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 125,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 126,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 127,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 128,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 129,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 130,
+            "mudra": "Nagabandha",
+            "confidence": 0.17259995639324188
+        },
+        {
+            "frame": 131,
+            "mudra": "Nagabandha",
+            "confidence": 0.17259995639324188
+        },
+        {
+            "frame": 132,
+            "mudra": "Nagabandha",
+            "confidence": 0.17259995639324188
+        },
+        {
+            "frame": 133,
+            "mudra": "Nagabandha",
+            "confidence": 0.17259995639324188
+        },
+        {
+            "frame": 134,
+            "mudra": "Nagabandha",
+            "confidence": 0.17259995639324188
+        },
+        {
+            "frame": 135,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 136,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 137,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 138,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 139,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 140,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 141,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 142,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 143,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 144,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 145,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 146,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 147,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 148,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 149,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 150,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 151,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 152,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 153,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 154,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 155,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 156,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 157,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 158,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 159,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 160,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 161,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 162,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 163,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 164,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 165,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 166,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 167,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 168,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 169,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 170,
+            "mudra": "Pasha",
+            "confidence": 0.4605288803577423
+        },
+        {
+            "frame": 171,
+            "mudra": "Pasha",
+            "confidence": 0.4605288803577423
+        },
+        {
+            "frame": 172,
+            "mudra": "Pasha",
+            "confidence": 0.4605288803577423
+        },
+        {
+            "frame": 173,
+            "mudra": "Pasha",
+            "confidence": 0.4605288803577423
+        },
+        {
+            "frame": 174,
+            "mudra": "Pasha",
+            "confidence": 0.4605288803577423
+        },
+        {
+            "frame": 175,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 176,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 177,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 178,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 179,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 180,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 181,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 182,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 183,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 184,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 185,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 186,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 187,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 188,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 189,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 190,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        },
+        {
+            "frame": 191,
+            "mudra": "Unknown",
+            "confidence": 0.0
+        }
+    ],
+    "mudra_summary": {
+        "Unknown": 177,
+        "Trishulam": 5,
+        "Nagabandha": 5,
+        "Pasha": 5
+    }
+}

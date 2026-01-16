@@ -1,0 +1,1002 @@
+{
+    "video_path": "C:\\aashish programming files\\freelance\\nithya-analysis ml model\\sample videos\\sample2.mp4",
+    "total_frames": 192,
+    "fps": 24.0,
+    "dance_steps": [
+        {
+            "step": "Alarippu",
+            "start_frame": 29,
+            "end_frame": 45,
+            "meaning": "an invocation piece that symbolizes the blossoming of the dancer's body and mind, offering respects to God, the teacher, and the audience."
+        },
+        {
+            "step": "Jathiswaram",
+            "start_frame": 45,
+            "end_frame": 90,
+            "meaning": "a pure dance sequence (Nritta) focusing on technical brilliance, complex footwork, and rhythm, without any specific interpretive meaning."
+        },
+        {
+            "step": "Shabdam",
+            "start_frame": 90,
+            "end_frame": 135,
+            "meaning": "an interpretive dance (Abhinaya) where the dancer introduces expressions and simple storytelling, typically praising a deity or king."
+        },
+        {
+            "step": "Varnam",
+            "start_frame": 135,
+            "end_frame": 180,
+            "meaning": "the centerpiece of the recital, effectively combining pure dance (Nritta) and expressive storytelling (Nritya) to explore complex emotional themes and devotion."
+        },
+        {
+            "step": "Padam",
+            "start_frame": 180,
+            "end_frame": 192,
+            "meaning": "a deeply emotional and expressive piece (Nritya), focusing on slow tempo and subtle facial expressions to depict themes of love, longing, or devotion."
+        }
+    ],
+    "mudra_detections": [
+        {
+            "frame": 0,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 1,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 2,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 3,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 4,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 5,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 6,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 7,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 8,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 9,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 10,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 11,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 12,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 13,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 14,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 15,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 16,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 17,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 18,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 19,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 20,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 21,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 22,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 23,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 24,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 25,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 26,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 27,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 28,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 29,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 30,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 31,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 32,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 33,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 34,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 35,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 36,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 37,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 38,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 39,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 40,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 41,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 42,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 43,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 44,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 45,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 46,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 47,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 48,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 49,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 50,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 51,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 52,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 53,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 54,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 55,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 56,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 57,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 58,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 59,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 60,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 61,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 62,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 63,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 64,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 65,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 66,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 67,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 68,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 69,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 70,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 71,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 72,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 73,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 74,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 75,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 76,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 77,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 78,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 79,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 80,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 81,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 82,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 83,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 84,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 85,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 86,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 87,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 88,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 89,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 90,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 91,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 92,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 93,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 94,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 95,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 96,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 97,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 98,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 99,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 100,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 101,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 102,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 103,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 104,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 105,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 106,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 107,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 108,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 109,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 110,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 111,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 112,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 113,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 114,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 115,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 116,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 117,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 118,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 119,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 120,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 121,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 122,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 123,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 124,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 125,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 126,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 127,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 128,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 129,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 130,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 131,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 132,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 133,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 134,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 135,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 136,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 137,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 138,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 139,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 140,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 141,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 142,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 143,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 144,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 145,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 146,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 147,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 148,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 149,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 150,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 151,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 152,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 153,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 154,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 155,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 156,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 157,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 158,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 159,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 160,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 161,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 162,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 163,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 164,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 165,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 166,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 167,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 168,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 169,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 170,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 171,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 172,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 173,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 174,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 175,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 176,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 177,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 178,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 179,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 180,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 181,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 182,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 183,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 184,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 185,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 186,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 187,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 188,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 189,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 190,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        },
+        {
+            "frame": 191,
+            "mudra": "Pataka",
+            "confidence": 0.95
+        }
+    ],
+    "mudra_summary": {
+        "Pataka": 192
+    }
+}

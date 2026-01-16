@@ -12,9 +12,25 @@ RAW_VIDEOS_DIR = os.path.join(DATA_DIR, 'raw', 'videos')
 PROCESSED_MUDRAS_DIR = os.path.join(DATA_DIR, 'processed', 'mudra_frame_dataset')
 PROCESSED_SEQUENCES_DIR = os.path.join(DATA_DIR, 'processed', 'step_sequence_dataset')
 
+# Mudra Dataset Paths
+RAW_MUDRAS_KAGGLE_DIR = os.path.join(DATA_DIR, 'raw', 'mudras', 'kaggle_50_mudras')
+RAW_MUDRAS_ASAMYUKTHA_DIR = os.path.join(DATA_DIR, 'raw', 'mudras', 'asamyuktha_27')
+RAW_MUDRAS_BARATH_DIR = os.path.join(DATA_DIR, 'raw', 'mudras', 'barath_mudras')
+
+# Processed Mudra Features
+PROCESSED_MUDRA_FEATURES = os.path.join(DATA_DIR, 'processed', 'mudra_features')
+
+# Model Paths
+MODEL_DIR = os.path.join(BASE_DIR, 'models', 'saved')
+MUDRA_MODEL_PATH = os.path.join(MODEL_DIR, 'mudra_classifier.h5')
+STEP_MODEL_PATH = os.path.join(MODEL_DIR, 'step_sequence_model.h5')
+
 # Create directories if they don't exist
 os.makedirs(PROCESSED_MUDRAS_DIR, exist_ok=True)
 os.makedirs(PROCESSED_SEQUENCES_DIR, exist_ok=True)
+os.makedirs(PROCESSED_MUDRA_FEATURES, exist_ok=True)
+os.makedirs(MODEL_DIR, exist_ok=True)
+
 
 # Feature Extraction Constants
 N_HAND_LANDMARKS = 21
@@ -39,5 +55,16 @@ SEQUENCE_LENGTH = 30     # frames (approx 1 sec at 30fps)
 STRIDE = 10              # frames sliding window
 FPS_TARGET = 30          # Normalize videos to this FPS
 
+# Mudra Model Training Constants
+MUDRA_IMAGE_SIZE = (224, 224)
+BATCH_SIZE = 32
+EPOCHS = 100
+LEARNING_RATE = 0.001
+VALIDATION_SPLIT = 0.15
+TEST_SPLIT = 0.15
+EARLY_STOPPING_PATIENCE = 15
+REDUCE_LR_PATIENCE = 7
+
 # Logging
 LOG_FORMAT = '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+

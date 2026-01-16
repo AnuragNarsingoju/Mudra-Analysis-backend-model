@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 import logging
 import src.config as config
+import os
 
 try:
     from deepface import DeepFace
@@ -12,37 +13,64 @@ except ImportError:
 
 try:
     import mediapipe as mp
+    from mediapipe.tasks import python
+    from mediapipe.tasks.python import vision
     MP_AVAILABLE = True
-    mp_hands = mp.solutions.hands
-    mp_pose = mp.solutions.pose
-    mp_drawing = mp.solutions.drawing_utils
 except (ImportError, AttributeError):
     MP_AVAILABLE = False
-    mp_hands = None
-    mp_pose = None
-    mp_drawing = None
 
 class FeatureExtractor:
     def __init__(self, use_static_image_mode=False):
         """
-        Initialize MediaPipe Hands and Pose models.
+        Initialize MediaPipe Hands and Pose models using the new Task API.
         """
         self.logger = logging.getLogger(__name__)
+        self.mp_available = MP_AVAILABLE
         
-        if MP_AVAILABLE:
-            self.hands = mp_hands.Hands(
-                static_image_mode=use_static_image_mode,
-                max_num_hands=2,
-                min_detection_confidence=0.5,
-                min_tracking_confidence=0.5
-            )
-            self.pose = mp_pose.Pose(
-                static_image_mode=use_static_image_mode,
-                model_complexity=1,
-                min_detection_confidence=0.5,
-                min_tracking_confidence=0.5
-            )
-        else:
+        self.hand_landmarker = None
+        self.pose_landmarker = None
+        
+        if self.mp_available:
+            try:
+                # Load Hand Landmarker
+                hand_model_path = os.path.abspath("models/mediapipe/hand_landmarker.task")
+                if not os.path.exists(hand_model_path):
+                    self.logger.error(f"Hand model not found at {hand_model_path}")
+                    self.mp_available = False
+                else:
+                    base_options = python.BaseOptions(model_asset_path=hand_model_path)
+                    options = vision.HandLandmarkerOptions(
+                        base_options=base_options,
+                        num_hands=2,
+                        min_hand_detection_confidence=0.5,
+                        min_hand_presence_confidence=0.5,
+                        min_tracking_confidence=0.5,
+                        running_mode=vision.RunningMode.IMAGE # or VIDEO if needed, but IMAGE is safer for loop
+                    )
+                    self.hand_landmarker = vision.HandLandmarker.create_from_options(options)
+
+                # Load Pose Landmarker
+                pose_model_path = os.path.abspath("models/mediapipe/pose_landmarker_full.task")
+                if not os.path.exists(pose_model_path):
+                     self.logger.error(f"Pose model not found at {pose_model_path}")
+                     # Ensure we don't break if only pose is missing?
+                else:
+                    base_options_pose = python.BaseOptions(model_asset_path=pose_model_path)
+                    options_pose = vision.PoseLandmarkerOptions(
+                        base_options=base_options_pose,
+                        output_segmentation_masks=False,
+                        min_pose_detection_confidence=0.5,
+                        min_pose_presence_confidence=0.5,
+                        min_tracking_confidence=0.5,
+                        running_mode=vision.RunningMode.IMAGE
+                    )
+                    self.pose_landmarker = vision.PoseLandmarker.create_from_options(options_pose)
+            
+            except Exception as e:
+                self.logger.error(f"Failed to initialize MediaPipe tasks: {e}")
+                self.mp_available = False
+
+        if not self.mp_available:
             self.logger.warning("MediaPipe not available. Using Dummy Feature Extraction.")
 
     def extract_landmarks(self, image_rgb):
@@ -51,39 +79,50 @@ class FeatureExtractor:
         """
         results_dict = {}
         
-        if not MP_AVAILABLE:
-            # Return dummy vectors
-            return np.zeros(126), np.zeros(99), {}
+        if not self.mp_available or self.hand_landmarker is None:
+            return np.zeros(126), np.zeros(99), {} # Dummy
             
-        # Process Hands
-        hand_results = self.hands.process(image_rgb)
-        results_dict['hands'] = hand_results
+        # Convert to MP Image
+        mp_image = mp.Image(image_format=mp.ImageFormat.SRGB, data=image_rgb)
         
-        # Process Pose
-        pose_results = self.pose.process(image_rgb)
-        results_dict['pose'] = pose_results
+        # --- Process Hands ---
+        hand_result = self.hand_landmarker.detect(mp_image)
+        # results_dict['hands'] = hand_result # Store object if needed
         
-        # --- Format Hand Data ---
         left_hand = np.zeros((21, 3))
         right_hand = np.zeros((21, 3))
         
-        if hand_results.multi_hand_landmarks:
-            for idx, hand_handedness in enumerate(hand_results.multi_handedness):
-                label = hand_handedness.classification[0].label
-                landmarks = hand_results.multi_hand_landmarks[idx]
-                points = np.array([[lm.x, lm.y, lm.z] for lm in landmarks.landmark])
-                if label == 'Left':
-                    left_hand = points
-                else:
-                    right_hand = points
+        # New API: hand_result.hand_landmarks is list of list of NormalizedLandmark
+        # hand_result.handedness is list of list of Category
         
+        if hand_result.hand_landmarks:
+             for idx, landmarks in enumerate(hand_result.hand_landmarks):
+                 # Get handedness
+                 # handedness is list of list, but usually 1 Category per hand
+                 if idx < len(hand_result.handedness):
+                     classification = hand_result.handedness[idx][0]
+                     label = classification.category_name # "Left" or "Right"
+                     
+                     points = np.array([[lm.x, lm.y, lm.z] for lm in landmarks])
+                     
+                     if label == 'Left':
+                         left_hand = points
+                     else:
+                         right_hand = points
+
         hand_vec = np.concatenate([left_hand.flatten(), right_hand.flatten()])
         
-        # --- Format Pose Data ---
+        # --- Process Pose ---
         pose_vec = np.zeros((33, 3))
-        if pose_results.pose_landmarks:
-            pose_vec = np.array([[lm.x, lm.y, lm.z] for lm in pose_results.pose_landmarks.landmark])
+        if self.pose_landmarker:
+            pose_result = self.pose_landmarker.detect(mp_image)
+            # results_dict['pose'] = pose_result
             
+            if pose_result.pose_landmarks:
+                # List of list, usually 1 pose
+                landmarks = pose_result.pose_landmarks[0]
+                pose_vec = np.array([[lm.x, lm.y, lm.z] for lm in landmarks])
+        
         pose_vec = pose_vec.flatten()
         
         return hand_vec, pose_vec, results_dict
@@ -115,6 +154,7 @@ class FeatureExtractor:
             return 6
 
     def close(self):
-        if MP_AVAILABLE:
-            self.hands.close()
-            self.pose.close()
+        if self.hand_landmarker:
+            self.hand_landmarker.close()
+        if self.pose_landmarker:
+            self.pose_landmarker.close()
