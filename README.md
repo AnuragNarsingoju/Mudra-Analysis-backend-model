@@ -1,81 +1,168 @@
-# Bharatanatyam Data Engineering Pipeline
+# Mudra Analysis - Bharatanatyam ML Model
 
-A robust pipeline to ingest Bharatanatyam dance videos and mudra images, extract MediaPipe landmarks and facial emotions, and produce normalized `.npy` datasets.
+A deep learning pipeline for detecting and classifying Bharatanatyam dance mudras (hand gestures) from video using MediaPipe landmarks and EfficientNetB0.
 
-## Setup
+## 🚀 Quick Start
 
-1. **Install Dependencies**
+### Prerequisites
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+- Python 3.10+
+- pip or uv package manager
 
-2. **Directory Structure**
-   Ensure your data is placed as follows:
-
-   ```
-   data/
-   ├── raw/
-   │   ├── mudras/
-   │   │   ├── Alapadma/
-   │   │   ├── Pataka/
-   │   │   └── ...
-   │   └── videos/
-   │       ├── dance_video_1.mp4
-   │       ├── dance_video_1.json
-   │       └── ...
-   ```
-
-   **Video Annotation Format (`.json`)**:
-
-   ```json
-   [
-     {
-       "step": "Alarippu",
-       "start_frame": 120,
-       "end_frame": 165
-     }
-   ]
-   ```
-
-## Usage
-
-Run the pipeline via command line:
+### 1. Clone the Repository
 
 ```bash
-# Process both Mudra Images and Video Steps
-python main_pipeline.py --mode all
-
-# Process only Mudra Images
-python main_pipeline.py --mode mudra
-
-# Process only Video Sequences
-python main_pipeline.py --mode steps
-
-# Run Inference (Generate Timeline) on a Video
-python main_pipeline.py --mode inference --video_path "data/raw/videos/test_video.mp4"
+git clone https://github.com/Aashish17405/Mudra-Analysis-backend-model.git
+cd Mudra-Analysis-backend-model
 ```
 
-## Inference Mode
+### 2. Install Dependencies
 
-The system can infer dance steps from a raw video file.
+```bash
+# Using pip
+pip install -r requirements.txt
 
-- **Input**: Path to `.mp4` video.
-- **Output**: A JSON file (e.g., `test_video_inferred.json`) containing the timeline of detected steps.
-- **Note**: Currently uses a heuristic fallback if ML models are not fully trained or if running in "Safe Mode".
+# OR using uv (recommended)
+uv sync
+```
 
-## Output
+### 3. Test the Model
 
-Processed data will be saved in `data/processed/`:
+Run inference on a sample video:
 
-- `mudra_frame_dataset/`
+```bash
+python main_pipeline.py --mode inference --video_path "sample videos/sample1.mp4"
+```
 
-  - `X_landmarks.npy`: Shape `(N_samples, 126)`
-  - `y_mudra_labels.npy`: Shape `(N_samples,)`
-  - `label_mapping.json`: Class name to index mapping.
+This will:
 
-- `step_sequence_dataset/`
-  - `X_sequences.npy`: Shape `(N_sequences, 30, 226)`
-    - (Feature dim = 126 + 99 + 1 = 226)
-  - `y_step_labels.npy`: Shape `(N_sequences,)`
-  - `step_label_mapping.json`: Step name to index mapping.
+- Load the pre-trained model (`models/saved/mudra_cnn_model_kaggle_latest.h5`)
+- Process the video frame-by-frame
+- Detect mudras and dance steps
+- Save results to `sample1_inferred.json`
+- Generate a narrative story
+
+---
+
+## 🎯 Training a New Model
+
+### Option 1: Train on Kaggle (Recommended)
+
+Upload `kaggle_train_script.py` to Kaggle with GPU enabled:
+
+1. Create a new Kaggle notebook
+2. Upload the script and dataset
+3. Run training (~2-3 hours with GPU)
+4. Download the trained model
+
+### Option 2: Train Locally
+
+#### Step 1: Prepare Dataset
+
+Place mudra images in the following structure:
+
+```
+data/mudras/kaggle_50_mudras/images/
+├── train/
+│   ├── Alapadmam/
+│   │   ├── image1.jpg
+│   │   └── ...
+│   ├── Anjali/
+│   └── ... (47 classes)
+└── val/
+    └── ... (same structure)
+```
+
+#### Step 2: Process Dataset
+
+```bash
+python main_pipeline.py --mode process_mudras
+```
+
+#### Step 3: Train Model
+
+```bash
+python main_pipeline.py --mode train_mudra --model_type landmark
+```
+
+**Training Parameters** (in `src/config.py`):
+
+- Image size: 224x224
+- Batch size: 32
+- Epochs: 100 (with early stopping)
+- Model: EfficientNetB0 with 47 output classes
+
+---
+
+## 📁 Project Structure
+
+```
+├── main_pipeline.py          # Main entry point
+├── kaggle_train_script.py    # Kaggle training script
+├── src/
+│   ├── config.py             # Configuration constants
+│   ├── extraction.py         # MediaPipe landmark extraction
+│   ├── mudra_predictor.py    # Mudra prediction class
+│   ├── inference.py          # Video inference pipeline
+│   ├── train_mudra_model.py  # Model training logic
+│   ├── mudra_processor.py    # Data augmentation
+│   └── narrative.py          # Story generation
+├── models/saved/
+│   └── mudra_cnn_model_kaggle_latest.h5  # Pre-trained model
+├── data/
+│   ├── raw/mudras/           # Raw mudra images
+│   └── processed/            # Processed features
+├── sample videos/            # Test videos (mp4)
+└── classes.txt               # List of 47 mudra classes
+```
+
+---
+
+## 🎥 Inference Modes
+
+```bash
+# Full inference with mudra detection
+python main_pipeline.py --mode inference --video_path "path/to/video.mp4"
+
+# Inference without mudra detection (faster)
+python main_pipeline.py --mode inference --video_path "path/to/video.mp4" --no_mudra
+```
+
+**Output**: JSON file with:
+
+- Dance step timeline
+- Mudra detections per frame
+- Mudra summary (count per class)
+- Generated narrative
+
+---
+
+## 🔧 Configuration
+
+Edit `src/config.py` to modify:
+
+| Parameter                 | Default    | Description             |
+| ------------------------- | ---------- | ----------------------- |
+| `MUDRA_IMAGE_SIZE`        | (224, 224) | Input image dimensions  |
+| `BATCH_SIZE`              | 32         | Training batch size     |
+| `EPOCHS`                  | 100        | Max training epochs     |
+| `EARLY_STOPPING_PATIENCE` | 15         | Early stopping patience |
+| `SEQUENCE_LENGTH`         | 30         | Frames per sequence     |
+
+---
+
+## 📊 Supported Mudras (47 Classes)
+
+The model recognizes 47 Bharatanatyam mudras including:
+
+- Alapadmam, Anjali, Aralam, Ardhachandran
+- Bramaram, Chakra, Garuda, Hamsapaksha
+- Katakamukha, Mayura, Mrigasirsha, Mushti
+- Nagabandha, Padmakosha, Pathaka, Shanka
+- And 31 more... (see `classes.txt` for full list)
+
+---
+
+## 📝 License
+
+MIT License
