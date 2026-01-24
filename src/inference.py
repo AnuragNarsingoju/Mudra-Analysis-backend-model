@@ -80,7 +80,7 @@ class StepPredictor:
         if self.mudra_predictor:
             self.mudra_predictor.close()
     
-def run_inference(video_path, output_json_path, use_mudra_model=True):
+def run_inference(video_path, output_json_path, use_mudra_model=True, predictor=None, extractor=None):
     """
     Process video, extract features, infer steps and mudras.
     
@@ -88,6 +88,8 @@ def run_inference(video_path, output_json_path, use_mudra_model=True):
         video_path: Path to input video
         output_json_path: Path to save JSON output
         use_mudra_model: Whether to use mudra classification model
+        predictor: Optional pre-loaded StepPredictor instance
+        extractor: Optional pre-loaded FeatureExtractor instance
     """
     logger.info(f"Running inference on {video_path}")
     logger.info(f"Mudra detection: {'Enabled' if use_mudra_model else 'Disabled'}")
@@ -127,9 +129,17 @@ def run_inference(video_path, output_json_path, use_mudra_model=True):
     extractor = None
     
     try:
-        # Initialize Predictor FIRST to avoid Keras loading conflicts if Extractor (MediaPipe/DeepFace) interferes
-        predictor = StepPredictor(use_mudra_model=use_mudra_model)
-        extractor = FeatureExtractor(use_static_image_mode=False)
+        # Initialize Predictor/Extractor if not provided (singleton support)
+        if predictor is None:
+            predictor = StepPredictor(use_mudra_model=use_mudra_model)
+        if extractor is None:
+            extractor = FeatureExtractor(use_static_image_mode=False)
+        
+        # We need to keep track if we OWN these instances to close them safely
+        # Actually, in a singleton model we DON'T want to close them unless the app shuts down
+        # For backward compatibility, we will only close if we created them here
+        own_predictor = (predictor is None)
+        own_extractor = (extractor is None)
         
         # State persistence for skipped frames
         last_features_vec = None 
@@ -212,10 +222,11 @@ def run_inference(video_path, output_json_path, use_mudra_model=True):
                 "meaning": STEP_MEANINGS.get(current_step, "A traditional dance step.")
             })
             
-        # Cleanup Resources
+        # Cleanup Resources - ONLY if we created them locally
         if cap.isOpened(): cap.release()
-        if extractor: extractor.close()
-        if predictor: predictor.close()
+        # If we are using singletons, we don't close here
+        # if extractor: extractor.close()
+        # if predictor: predictor.close()
     
     # 4. Prepare output
     output = {
