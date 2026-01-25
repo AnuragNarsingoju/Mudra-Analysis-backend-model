@@ -86,16 +86,16 @@ class MudraPredictor:
             rf_path = Path(config.MODEL_DIR) / 'mudra_rf_model.pkl'
             h5_path = Path(config.MODEL_DIR) / f'mudra_classifier_{model_type}_final.h5'
             
-            # Priority Logic
-            if (Path(config.MODEL_DIR) / 'kaggle_model_v3_savedmodel').exists():
+            # Priority Logic - H5 first for better compatibility
+            if kaggle_v3_h5.exists():
+                model_path = kaggle_v3_h5
+                logger.info(f"Found Kaggle v3 H5 model at {model_path}")
+            elif (Path(config.MODEL_DIR) / 'kaggle_model_v3_savedmodel').exists():
                 model_path = Path(config.MODEL_DIR) / 'kaggle_model_v3_savedmodel'
                 logger.info(f"Found Kaggle v3 SavedModel at {model_path}")
             elif kaggle_v3_keras.exists():
                 model_path = kaggle_v3_keras
                 logger.info(f"Found Kaggle v3 Keras model at {model_path}")
-            elif kaggle_v3_h5.exists():
-                model_path = kaggle_v3_h5
-                logger.info(f"Found Kaggle v3 H5 model at {model_path}")
             elif kaggle_v2.exists():
                 model_path = kaggle_v2
                 logger.info(f"Found Kaggle v2 CNN model at {model_path}")

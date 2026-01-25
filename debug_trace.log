@@ -28,3 +28,9 @@ INIT: Mudra predictor initialized successfully: <src.mudra_predictor.MudraPredic
 EXTRACT: Generated 0 hand crops
 EXTRACT: Generated 0 hand crops
 EXTRACT: Generated 0 hand crops
+INIT: Mudra predictor initialized successfully: <src.mudra_predictor.MudraPredictor object at 0x0000014EB0F386E0>
+INIT: Mudra predictor initialized successfully: <src.mudra_predictor.MudraPredictor object at 0x00000216D548C980>
+EXTRACT: Generated 0 hand crops
+EXTRACT: Generated 0 hand crops
+EXTRACT: Generated 0 hand crops
+INIT: Mudra predictor initialized successfully: <src.mudra_predictor.MudraPredictor object at 0x00000197E417C590>

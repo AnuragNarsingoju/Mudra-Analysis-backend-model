@@ -28,9 +28,9 @@ MODELS = {
     "models/mediapipe/pose_landmarker_full.task":
         "https://storage.googleapis.com/mediapipe-models/pose_landmarker/pose_landmarker_full/float16/latest/pose_landmarker_full.task",
     
-    # Trained mudra CNN model from HuggingFace
-    "models/saved/kaggle_model_v3.keras":
-        f"{HUGGINGFACE_BASE_URL}/kaggle_model_v3.keras",
+    # Trained mudra CNN model from HuggingFace (H5 format for compatibility)
+    "models/saved/kaggle_model_v3.h5":
+        f"{HUGGINGFACE_BASE_URL}/kaggle_model_v3.h5",
     
     # Class mapping
     "models/saved/class_indices.json":
