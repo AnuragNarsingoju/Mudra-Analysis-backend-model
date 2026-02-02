@@ -7,4 +7,31 @@ wheels/
 *.egg-info
 
 # Virtual environments
-.venv
+.venv/
+venv_mudra/
+
+# Large Datasets and Models (downloaded at build time)
+data/
+mudra_dataset_v2/
+models/
+*.zip
+
+# Keep class_mapping.json - small file needed for deployment
+!class_mapping.json
+
+# Large binary model files (hosted on HuggingFace)
+*.h5
+*.pkl
+*.keras
+*.task
+
+# Debug and Output
+debug_crop_*.jpg
+debug_trace.log
+pipeline.log
+*_comparison_output.json
+*_story.txt
+final_dataset_stats.csv
+final_dataset_distribution_v2.png
+out.txt
+
